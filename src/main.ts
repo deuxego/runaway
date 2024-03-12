@@ -1,11 +1,5 @@
-> # 
-> ## `runaway`
-> ## My mini framework
-> ##
+import { createComponent } from './lib';
 
-## Example
-
-```ts
 interface StateSchema {
   count: number;
 }
@@ -27,4 +21,3 @@ createComponent<StateSchema>({
 });
 
 document.body.innerHTML = `<counter-tag></counter-tag>`;
-```
